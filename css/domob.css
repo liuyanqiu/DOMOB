@@ -1,0 +1,92 @@
+body,div,ul,li,a,img{margin: 0;padding: 0;}
+#page_1{margin: auto;}
+
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+#wrapper{position: relative;margin: 10px auto;width: 400px;height: 200px;}
+#banner{position:relative;width: 400px;height: 200px;overflow: hidden;}
+.imgList{
+    position:relative;width:2000px;height:200px;z-index: 10;
+    overflow: hidden;
+}
+.imgList li{float:left;display: inline;}
+
+.bg{position: absolute;bottom: 0;width: 400px;height: 40px;z-index:20;opacity: 0.4;filter:alpha(opacity=40);background: black;}
+.infoList{position: absolute;left: 10px;bottom: 10px;z-index: 30;}
+.infoList li{display: none;}
+.infoList .infoOn{display: inline;color: white;}
+.indexList{position: absolute;right: 10px;bottom: 5px;z-index: 30;}
+
+.indexList li{float: left;margin-right: 15px;background: white;width:10px;border-radius:5px;height:10px;}
+
+.indexList .indexOn{width:25px;height:10px;border-radius: 3px;}
+.title{  text-align: center;margin-top: 10px;font-weight: bolder}
+
+.head{width:400px;height:30px;margin: auto;border-bottom: 1px solid darkgrey;}
+.head_1{font-weight: bolder;font-size: 18px;margin-left: 18px;}
+.head_2{width:5px;height:5px;border-radius: 15px;background: black;display: inline-block;}
+.head_3{color: red;width:34px;height:16px;border: 1px solid red;line-height: 16px;font-size: 12px;display: inline-block;text-align: center}
+.head_4{word-wrap: break-word;text-overflow: ellipsis;overflow: hidden;font-size: 15px;margin-left: 10px;}
+.content1{margin: auto;width:400px;height:200px;}
+.content1_1,.content1_2{float:left;}
+.content1_1{width:180px;height:200px;border-right: 1px solid gainsboro}
+.content1_2{width:218px;}
+.content1_a{font-size: 18px;color:blue;margin-top: 10px;}
+.content1_b{font-size: 12px;color:gainsboro;margin-top: 10px;}
+.content1_c{font-size: 13px;width: 120px;text-align:center;height:20px;line-height: 20px;color: red;border:1px solid red;margin-top: 10px;}
+.content1_2a{width:218px;height:100px;border-bottom: 1px solid gainsboro}
+.content1_2a1{color:red;font-size: 18px;margin-top: 10px;margin-left: 10px;}
+.content1_2a2{color:gainsboro;font-size: 12px;margin-top: 10px;margin-left: 10px;}
+.img1{width:80px;height:55px;position: relative;left:140px;top:-10px;}
+.img2{width:70px;height:70px;float:left;margin-top: 10px;margin-left: 10px;}
+.content1_2b1{float:left;width:130px;margin-left: 5px;}
+.content1_2b2{font-size: 17px;font-weight: bolder;font-family: 新宋体;margin-top: 20px;}
+.content1_2b3{font-size: 8px;color:red;margin-top: 4px;}
+.border1{width:400px;margin:auto;height:5px;background: #e6e6e6
+}
+/*table*/
+* { margin:0; padding:0; }
+
+
+ul, li { list-style:none; }
+
+#content2 { width:410px; margin:1px;font-size:12px;margin:auto;}
+#hotnews_caption { width:410px; overflow:hidden; border-bottom:1px solid #FAFAFA; }
+#hotnews_caption ul { float:left; }
+#hotnews_caption ul li {
+    float:left; border-left:1px solid #FFF; width:80px; line-height:25px; text-align:center;
+    cursor:pointer;font-size:12px;
+}
+#hotnews_caption .normal {border-bottom: 1px solid grey}
+#hotnews_caption .current{color:red;border-bottom: 2px solid red;}
+#hotnews_content {}
+#hotnews_content .normal { display:none; }
+#hotnews_content .current { display:block; }
+#hotnews_content ul { padding:8px 0 0 5px; }
+#hotnews_content ul li a { font-size:12px;letter-spacing:1pt;line-height:14pt;}
+.list_1_a,.list_1_b{float:left;width:199px;border-bottom: 1px solid gainsboro;}
+.list_1_a{border-right: 1px solid gainsboro;margin-left: 10px;}
+.img3,.img4{width:110px;height:90px;}
+.img3{margin-left: 20px;}
+.list_1_b1{margin-left: 10px;}
+.img4{margin-left: 30px;}
+#foot{width:400px;height:40px;border:1px solid grey;margin:auto;margin-top:270px;background: papayawhip}
+#footer{list-style: none;}
+#footer li{float:left;width:80px;text-align: center;line-height: 40px;}
+#big .normal_1 { display:none; }
+#big .current_1 { display:block; }
+#footer .current_1{color:white;background: red;}
+#footer .normal_1{color:black;background:papayawhip; }
+#page_2{ margin: auto;
+    /*border:1px solid gainsboro;*/
+    width:400px;
+    height:300px;}
+#page_3,#page_4,#page_5{
+    margin: auto;
+    border:1px solid gainsboro;
+    width:400px;
+    height:300px;
+}
+.p1{color:red;font-weight: bolder;font-size: 20px;margin-top: 20px;margin-left: 20px;}
+.img5{margin-left: 20px;width:110px;height:90px;}
